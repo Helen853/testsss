@@ -18,7 +18,7 @@ def test_positiv_case(size_browser):
 
 def test_negativ_case(size_browser):
     browser.open('https://google.com')
-    browser.element('[name="q"]').should(be.blank).type('selene').press_enter()
-    browser.element('[id="search"]').should(have.no.text('Selene - User-oriented Web UI browser tests in Python'))
+    browser.element('[name="q"]').should(be.blank).type('selene097654').press_enter()
+    browser.element('[id="search"]').should(have.no.text('selene097654'))
 
 
